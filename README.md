@@ -15,6 +15,19 @@ Main Menu  -------------------------------
 5. Save Reservations to a file
 6. Exit  -------------------------------
 <br>
+Install the package using pip:
+
+```bash
+python3 filename.py
+```
+
+## work with any of below
+
+- Python 3+
+- pycharm
+- VScode
+<br>
+
 The data must have this format and it can be contains in any extention.<br>
 Every order of number you see are the column numbner.<br>
 
