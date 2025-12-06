@@ -17,6 +17,7 @@ Main Menu  -------------------------------
 
 The data must have this format and it can be contains in any extention.
 Every order of number you see are the column numbner.
+
 3 # <-- this is how many row
 5 # <-- this is how many column
 first-row
