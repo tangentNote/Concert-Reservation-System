@@ -1,0 +1,7 @@
+Main Menu  -------------------------------
+1. Add New Reservation
+2. Edit Existing Reservation
+3. Cancel Reservation
+4. Display Seating Chart
+5. Save Reservations to a file
+6. Exit  -------------------------------
