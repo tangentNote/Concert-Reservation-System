@@ -20,19 +20,19 @@ Every order of number you see are the column numbner.<br>
 
 3 # <-- this is how many row <br>
 5 # <-- this is how many column <br>
-first-row
-2
-3
-4
-5
-second-row
-2
-3
-4
-5
-1
-2
-3
-4
-bottom-right
+first-row<br>
+2<br>
+3<br>
+4<br>
+5<br>
+second-row<br>
+2<br>
+3<br>
+4<br>
+5<br>
+1<br>
+2<br>
+3<br>
+4<br>
+bottom-right<br>
 
