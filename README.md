@@ -7,15 +7,16 @@ Anyone can use it without any restriction and no limits how the code is contribu
 2d table with no limits on rows or column.<br>
 The length and size of the data is determine by the data file<br>
 
-Main Menu  -------------------------------
+## Main Menu  
 1. Add New Reservation
 2. Edit Existing Reservation
 3. Cancel Reservation
 4. Display Seating Chart
 5. Save Reservations to a file
-6. Exit  -------------------------------
+6. Exit
+   
 <br>
-Install the package using pip:
+Run in terminal with python3:
 
 ```bash
 python3 filename.py
@@ -28,8 +29,9 @@ python3 filename.py
 - VScode
 <br>
 
-The data must have this format and it can be contains in any extention.<br>
-Every order of number you see are the column numbner.<br>
+## Data format setting
+- The data must have this format and it can be contains in any extention.<br>
+- Every order of number you see are the column numbner.<br>
 
 3 # <-- this is how many row <br>
 5 # <-- this is how many column <br>
