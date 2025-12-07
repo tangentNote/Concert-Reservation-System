@@ -199,12 +199,15 @@ def cancel_reservation(list): # make a seat empty with appropriate number
 def create_data_set(row, coln): # creates empty data set of any size, always save as in data_set.txt
     file = open("data_set.txt", "w")
     file.write(f"{row}\n{coln}\n")
-    for i in range(row):
+    for i in tqdm(range(row), desc= "Writing data set"):
         for j in range(coln):
             file.write(f"{j+1}\n")
 
+import time
+from tqdm import tqdm
 
 if __name__ == '__main__':
     create_data_set(2**12, 2**10)
     display_chart(load_file("data_set.txt"))
-    print("\n the data set has been created successfully. ")
+    print(f"\n the data set has been created successfully. timer: {elapsed_time:.4f}s ")
+
