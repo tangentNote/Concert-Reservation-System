@@ -196,5 +196,15 @@ def cancel_reservation(list): # make a seat empty with appropriate number
             print()
     return list
 
+def create_data_set(row, coln): # creates empty data set of any size, always save as in data_set.txt
+    file = open("data_set.txt", "w")
+    file.write(f"{row}\n{coln}\n")
+    for i in range(row):
+        for j in range(coln):
+            file.write(f"{j+1}\n")
+
+
 if __name__ == '__main__':
-    print(" All the functions are in here but aren't called. ")
+    create_data_set(2**12, 2**10)
+    display_chart(load_file("data_set.txt"))
+    print("\n the data set has been created successfully. ")
